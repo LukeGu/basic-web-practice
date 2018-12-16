@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #94e238;
+}
+
+h1{
+	margin: auto auto;
+	text-align: center;
+	margin: 50px;
+}
+
+table{
+	border-collapse: collapse;
+	margin: auto auto;
+}
+
+td{
+	width: 150px;
+	height: 70px;
+}
+
+.btn{
+	width: 151px;
+	height: 70px;
+	font-size: x-large;
+}
+
+.btn_click{
+	width: 151px;
+	height: 70px;
+	font-size: x-large;
+}
+
+
+.txt{
+	width: 600px;
+	line-height: 100px;
+	font-size: x-large;
+	text-align: right;
+}

@@ -1,0 +1,118 @@
+/* 弹性盒子 */
+
+div{
+      display: -webkit-box;
+      display: -moz-box;
+      display: -o-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+      display: -o-flex;
+      display: flex;
+}
+
+
+/* 水平分栏&排序(flex)*/
+
+.box {
+/*     display: -webkit-flex; */
+    width: 600px;
+    -webkit-flex-direction: row;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.first {
+    height: 100px;
+    flex:1;
+    -webkit-flex: 1;
+    -moz-flex:1;
+    -ms-flex:1;
+    -o-flex:1;
+    order: 2;
+    -webkit-order: 2;
+    -moz-order:2;
+    -ms-order:2;
+    -o-order:2;
+    background-color: red;
+}
+
+.second {
+    height: 100px;
+    flex:1;
+    -webkit-flex: 1;
+    -moz-flex:1;
+    -ms-flex:1;
+    -o-flex:1;
+    order: 3;
+    -webkit-order: 3;
+    -moz-order:3;
+    -ms-order:3;
+    -o-order:3;
+    background-color: yellow;
+}
+
+.third {
+    height: 200px;
+    flex:1;
+    -webkit-flex: 1;
+    -moz-flex:1;
+    -ms-flex:1;
+    -o-flex:1;
+    order: 2;
+    -webkit-order: 1;
+    -moz-order:1;
+    -ms-order:1;
+    -o-order:1;
+    background-color: blue;
+}
+
+
+/* 垂直分栏 */
+
+.box1 {
+    display: -webkit-flex;
+    width: 600px;
+    -webkit-flex-direction: column;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/* cloumn分栏 */
+
+.col {
+    -webkit-column-count: 4;
+    -webkit-column-rule-style: dotted;
+    padding: 50px 0 50px 0;
+}
+
+.col p {
+    padding-right:50px;
+}
+
+.col img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+    max-height: 100%;	
+    padding-right:50px;
+}
+
+/* 旧版弹性盒子居中布局 */
+
+.cen {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
